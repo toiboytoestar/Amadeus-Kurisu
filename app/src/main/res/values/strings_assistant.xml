@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_hub">HUB</string>
+    <string name="ui_new_chat">NEW</string>
+    <string name="ui_settings">SET</string>
+    <string name="ui_send">SEND</string>
+    <string name="ui_keyboard">Aa</string>
+    <string name="ui_voice">MIC</string>
+    <string name="ui_mic">Talk to Kurisu</string>
+    <string name="ui_connect">Connect</string>
+    <string name="ui_cancel">Cancel</string>
+    <string name="ui_type_hint">Type to Kurisu…</string>
+    <string name="ui_handsfree_on">AUTO·ON</string>
+    <string name="ui_handsfree_off">AUTO·OFF</string>
+    <string name="ui_status_idle">ONLINE · tap the mic</string>
+    <string name="ui_status_listening">● LISTENING</string>
+    <string name="ui_status_thinking">… THINKING</string>
+    <string name="ui_status_speaking">♪ SPEAKING</string>
+    <string name="ui_status_offline">OFFLINE MODE · add an AI key in SET</string>
+    <string name="ui_no_speech">Speech recognition isn\'t available on this device. You can still type.</string>
+    <string name="ui_need_mic">I need microphone permission to hear you. You can still type to me.</string>
+    <string name="ui_no_key_hint">I can only play my recorded lines right now, senpai. Add an AI key in settings and I can really talk with you.</string>
+    <string name="ui_chip_plan">Plan my day</string>
+    <string name="ui_chip_explain">Explain…</string>
+    <string name="ui_chip_quiz">Quiz me…</string>
+    <string name="ui_chip_research">Research…</string>
+    <string name="ui_chip_cards">Make flashcards…</string>
+    <string name="ui_chip_summarize">Summarize…</string>
+    <string name="ui_chip_focus">Focus 25</string>
+    <string name="ui_ask_kurisu">Ask Kurisu</string>
+</resources>

@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.toiboytoestar.kurisu'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.toiboytoestar.kurisu"
+        minSdk 21
+        targetSdk 34
+        versionCode 13
+        versionName "1.2.1"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    // No runtime dependencies: the app only uses framework APIs.
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+}

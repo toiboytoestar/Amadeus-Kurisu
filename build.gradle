@@ -1,0 +1,22 @@
+// Top-level build file. (Updated from AGP 3.0.1; the Gradle build is untested in the authoring sandbox,
+// tools/build_apk.sh is the verified build path. See README.)
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.5.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.layout.buildDirectory
+}

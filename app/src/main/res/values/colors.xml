@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#ffcf40</color>
+    <color name="hub_bg">#0b0b10</color>
+    <color name="panel">#e60a0a10</color>
+    <color name="ink">#ececec</color>
+    <color name="dim">#99ffffff</color>
+    <color name="danger">#ff6a5a</color>
+</resources>
